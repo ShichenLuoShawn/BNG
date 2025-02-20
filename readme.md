@@ -1,5 +1,18 @@
 # KPFBNC
 
+## Datasets
+### ABIDE
+The ABIDE dataset is openly accessible to all users. We have provided the time series data from the ABIDE dataset in the ./TimeSeries directory. Alternatively, you can download it by following the instructions on the [ABIDE website](http://preprocessed-connectomes-project.org/abide/download.html).
+
+### ADHD
+The ADHD dataset can be downloaded from the [ADHD website](http://preprocessed-connectomes-project.org/adhd200/download.html).
+
+### HCP
+The HCP dataset can be downloaded from the [HCP website](https://db.humanconnectome.org/).
+
+## Command
+python main.py --data_name 'ABIDE200'
+
 ## Requirement
 - torch                   2.1.2+cu118
 - torch_geometric         2.5.3
@@ -9,19 +22,3 @@
 - matplotlib              3.7.3
 - seaborn                 0.13.0
 - nilearn                 0.10.2
-
-## Datasets
-### ABIDE
-The ABIDE dataset is open access to all users, we have provide the time series data from ABIDE dataset in ./TimeSeries directory, 
-or you can download it [follow the instructions on](http://preprocessed-connectomes-project.org/abide/download.html)
-
-### ADHD
-The ADHD dataset could be [downloaded from](http://preprocessed-connectomes-project.org/adhd200/download.html)
-
-### HCP
-The HCP dataset could be [downloaded from](https://db.humanconnectome.org/)
-
-## Command
-python main.py --data_name 'ABIDE200'
-
-
