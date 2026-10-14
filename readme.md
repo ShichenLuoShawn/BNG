@@ -1,4 +1,4 @@
-# BuiBGG
+# BioBGG
 
 ## Datasets
 ### ABIDE
